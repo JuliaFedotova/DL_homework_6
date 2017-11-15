@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Юлия Федотова"
+  },
+  "text": {
+    "more": "1)Бледно розовые ребра и узлы (их больше всего) — это мои друзья и бывшие одноклассники из гимназии.\n2) Красные и оранжевые — это люди, с которыми я состою во многих одинаковых сообществах. \n3) Зелеными указаны мои друзья из лицея НИУ ВШЭ, также у некоторых из них есть связи с розовыми, так как несколько моих бывших одноклассников из гимназии также перешли в Лицей НИУ ВШЭ.\n4) Голубым цветом обозначены друзья из Национального Исследовательского Университета ВШЭ.\n5) Одиночные серые узлы — это интернет друзья или родственники, у которых нет пересечений с другими моими друзьями. ",
+    "intro": "Граф друзей VK, показывающий отношения и связи между моими друзьями. \nОни указаны раличными цветами на графе (см.длинное описание). ",
+    "title": "Граф друзей VK"
+  },
+  "legend": {
+    "edgeLabel": "Связи",
+    "colorLabel": "Выделяет группы",
+    "nodeLabel": "Люди"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
